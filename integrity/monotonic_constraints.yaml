@@ -1,0 +1,12 @@
+# Example of "seatbelt" configuration for AI ranking
+constraints:
+  - feature: trust_score
+    type: monotonic_increasing
+  - feature: risk_flag
+    type: monotonic_decreasing
+
+caps_by_segment:
+  - segment: "sensitive_category"
+    cap_value: 0.7
+  - segment: "general_category"
+    cap_value: 0.95
