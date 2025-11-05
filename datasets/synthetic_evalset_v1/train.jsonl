@@ -1,0 +1,4 @@
+```json
+{"input_text":"Summarize benefits of solar energy","candidate_output":"Solar energy reduces emissions and saves cost.","category":"environment","label":"correct","rationale":"Covers main benefit."}
+{"input_text":"List causes of inflation","candidate_output":"Government spending only.","category":"economics","label":"partially_correct","rationale":"Incomplete answer."}
+{"input_text":"Translate 'bonjour'","candidate_output":"hello world","category":"language","label":"incorrect","rationale":"Extra word added."}
